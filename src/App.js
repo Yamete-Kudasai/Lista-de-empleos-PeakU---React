@@ -8,20 +8,20 @@ function App() {
     <div className="App">
       <div className='container'>
         {empleos.map((trabajo, index) => (
-        <Jobs
-          key={index}
-          tittleVacante={trabajo.tittleVacante}
-          imageJob={trabajo.imageJob}
-          skills={trabajo.skill}
-          empresa={trabajo.empresa}
-          lugar={trabajo.lugar}
-          salario={trabajo.salario}
-          vacantes={trabajo.vacantes}
-          publicacion={trabajo.publicacion}
-        />
-      ))}
-    </div>
+          <Jobs
+            key={index}
+            tittleVacante={trabajo.tittleVacante}
+            imageJob={trabajo.imageJob}
+            skills={trabajo.skill}
+            empresa={trabajo.empresa}
+            lugar={trabajo.lugar}
+            salario={trabajo.salario}
+            vacantes={trabajo.vacantes}
+            publicacion={trabajo.publicacion}
+          />
+        ))}
       </div>
+    </div>
   );
 }
 
