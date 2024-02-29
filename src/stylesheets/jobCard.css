@@ -1,0 +1,166 @@
+.job-card {
+    width: 90%;
+    max-height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    transition: .2s;
+    justify-content: center;
+}
+.job-card:hover{
+    box-shadow: 0px 0px 44px 1px rgba(0,0,0,0.75);
+    transition: .5s;
+}
+.info{
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.container-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    
+}
+
+.image-job {
+    width: auto;
+    height: auto;
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: contain;
+  }
+  
+
+.tittle {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    justify-content: start;
+    flex-wrap: wrap; 
+}
+
+.skills ul{
+    width: 100%;
+}
+
+.skills li {
+    border-radius: 15px;
+    margin-bottom: 5px;
+    border: solid 1px black;
+    text-align: center;
+    display: flex;
+    
+    
+}
+.skills li a{
+    font-size: .6rem;
+    margin: 5px;
+    text-decoration: none;
+    color: gray;
+
+}
+
+.tittle-vacante {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.datos-empleo{
+    display: none;
+}
+
+.icon-card img{
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+    max-width: 15px;
+    max-height: 15px;
+    object-fit: contain; 
+}
+.descripcion{
+    display: none;
+    flex-direction: column;
+    font-size: 1rem;
+
+}
+
+@media (min-width: 768px) {
+
+    .job-card {
+        flex-direction: column;
+        width: 80%; /* Modifica el ancho para la versión de escritorio */
+        max-height: 400px; /* Modifica la altura máxima para la versión de escritorio */
+
+    }
+    .info{
+        margin: 20px;
+    }
+    .image-job {
+        max-width: 150px;
+    }
+    .container-info{
+        margin-left: 10px;
+    }
+    .tittle {
+        
+        flex-direction: row; 
+    }
+    .tittle-vacante{
+        font-size: 1.5rem;
+    }
+    .skills{
+        margin-left: 20px;
+    }
+    .skills ul{
+    
+    margin-left: 20px;
+        
+    }
+    .skills li {
+        margin-right: 15px;
+        margin-bottom: 0;
+        border-radius: 15px;
+        border: solid 1px black;
+        text-align: center;
+        display: flex;
+        
+        
+    }
+    .skills li a{
+        font-size: .8rem;
+        margin: 10px;
+    }
+
+    .datos-empleo {
+        margin-top: 20px;
+        display: flex;
+    }
+    
+    .datos-empleo p {
+        flex: 1;
+        display: flex;
+        font-size: 1rem;
+
+    }
+    .descripcion{
+        display: flex;
+        margin: 15px 15px;
+        
+    }
+    
+}
