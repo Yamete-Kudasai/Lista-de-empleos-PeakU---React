@@ -32,7 +32,7 @@ const trabajos = [
     {
         tittleVacante: 'Operario de novia psicologa',
         imageJob: 'invoway.png',
-        skill: ['Cocinar', 'Chistes malos', 'Mariwanita', 'Paciencia'],
+        skill: ['Cocinar', 'Chistes malos', 'Vino', 'Paciencia'],
         empresa: 'Daisy Inc',
         lugar: 'Dabeiba',
         salario: 'Desconocido',
